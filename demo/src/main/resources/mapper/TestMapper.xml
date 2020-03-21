@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.richard.springboot.demo.dao.TestMapper">
+
+    <select id="testSelect" resultType="com.richard.springboot.demo.bean.TestBean">
+        select name from zcy_test
+    </select>
+
+</mapper>

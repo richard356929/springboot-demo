@@ -1,0 +1,18 @@
+/**
+ * 引入 gradle-web依赖
+ */
+dependencies {
+    //引入子模块 gradle-core
+    compile project(':common')
+    //引入 springboot starter web
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.2'
+    runtimeOnly 'mysql:mysql-connector-java'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    //引入 thymeleaf 模板引擎
+//    compile ('org.springframework.boot:spring-boot-starter-thymeleaf')
+}
