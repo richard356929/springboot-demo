@@ -4,6 +4,8 @@ import com.richard.TestCommon;
 import com.richard.springboot.demo.bean.TestBean;
 import com.richard.springboot.demo.dao.TestMapper;
 import com.richard.springboot.demo.service.TestService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,13 +18,15 @@ import java.util.List;
 @Service
 public class TestServiceImpl implements TestService {
 
+    Logger logger = LogManager.getLogger("TestServiceImpl");
+
     @Autowired
     private TestMapper testMapper;
 
     @Override
     public void testService() {
         List<TestBean> testBeanList = testMapper.testSelect();
-        System.out.println(testBeanList);
+        logger.debug(testBeanList);
         TestCommon.test();
     }
 }
