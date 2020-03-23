@@ -1,29 +1,19 @@
-/**
- * CopyRight (c) 2016 北京好数科技有限公司 保留所有权利
- */
 
 package com.z.suite.exception;
 
-/**
- * 异常编码常量类
- *
- * @author zhangzhan
- * @version 1.0.0.2017年2月14日
- */
 public class ExceptionCode {
-    
+
     /**
      * 错误码规则
-     * 
+     * <p>
      * 【2为错误类型】【2位模块编号】【2位序列号】
-     * 
+     * <p>
      * 错误类型：40: 空或者不存在；41：有冲突； 42：过期；43：不正确; 44: 其他错误。
      * 模块编号：auth: 01; billing: 02; card-channel: 03； card-company:04; device: 05; file: 06; logger: 07; notice: 08; schedule: 09; task: 10;
-     *         cloud: 11; cloud-manager: 12; 
+     * cloud: 11; cloud-manager: 12;
      * 序列号从：00开始
      * 实例: 400100: 代表auth模块下某个不存在的错误，具体可以是账号不存在等等
      * 使用方式：每个模块需要继承此类。比如：AuthExceptionCode extends ExceptionCode。
-     * 
      */
 
     public static int SUCCESS = 0;
@@ -58,7 +48,7 @@ public class ExceptionCode {
     public static int CACHE_SELECT = 500301; // Redis查询错误
 
     public static int CACHE_INSERT = 510301; // Redis保存错误
-    
+
     public static int CACHE_DELETE = 510302; // Redis删除错误
 
     public static int CACHE_DATA = 540301; // Redis取出数据转换错误
@@ -84,22 +74,22 @@ public class ExceptionCode {
      * 第三方系统错误
      */
     public static int HUAWEI_ERROR = 600001;
-    
+
     public static int THIRD_SYS_ERROR = 600101;
-    
+
     public static int THIRD_SYS_UPDATE = 600102;
-    
+
     public static int THIRD_SYS_SELECT = 600103;
-    
+
     public static int THIRD_SYS_INSERT = 600104;
-    
+
     public static int THIRD_SYS_DELETE = 600105;
-    
+
     public static int AUTH_EXCEPTION = 400105;
-    
+
     // 未登录
     public static int UNLOGIN = 400102;
-    
+
     // 没有权限
     public static int NO_PRIVILEGE = 400103;
 
@@ -108,7 +98,7 @@ public class ExceptionCode {
 
     // 密码不正确
     public static int INVALID_PASSWORD = 400101;
-    
+
     // 证书过期
     public static int LINCENSE_EXPIRE = 400104;
 
@@ -139,7 +129,7 @@ public class ExceptionCode {
     public static int WEBAUTH_EXCEPTION = 400800;
 
     public static int SECURITY_EXCEPTION = 400900;
-    
+
     public static int DEVICE_EXCEPTION = 401000;
 
 
@@ -154,7 +144,7 @@ public class ExceptionCode {
 
     // 输入卡号为空
     public static int COPEN_MSISDN_NULL = 7000002;
-    
+
     // 微信错误
     public static int WECHAT_ERROR = 7000003;
 }

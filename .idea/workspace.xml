@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d61beed-acc5-4df2-b7d3-6713cfda766e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/richard/TestCommon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/richard/TestCommon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/richard/springboot/demo/service/impl/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/richard/springboot/demo/service/impl/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suite/src/main/java/com/z/suite/exception/ExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/suite/src/main/java/com/z/suite/exception/ExceptionCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suite/src/main/java/com/z/suite/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/suite/src/main/java/com/z/suite/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suite/src/main/java/com/z/suite/util/JSONUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/suite/src/main/java/com/z/suite/util/JSONUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +135,7 @@
       <updated>1584797236371</updated>
       <workItem from="1584797239474" duration="2696000" />
       <workItem from="1584948627981" duration="682000" />
-      <workItem from="1584949910217" duration="371000" />
+      <workItem from="1584949910217" duration="654000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,3 @@
-/**
- * CopyRight (c) 2016 北京好数科技有限公司 保留所有权利
- */
-
 package com.z.suite.util;
 
 import com.z.suite.exception.ExceptionCode;
