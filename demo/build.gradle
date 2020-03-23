@@ -3,7 +3,7 @@
  */
 dependencies {
     //引入子模块 gradle-core
-    compile project(':common')
+    compile project(':suite')
     //引入 springboot starter web
     compile 'org.springframework.boot:spring-boot-starter-web'
 

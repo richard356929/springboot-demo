@@ -1,9 +1,10 @@
 package com.richard.springboot.demo.service.impl;
 
-import com.richard.TestCommon;
 import com.richard.springboot.demo.bean.TestBean;
 import com.richard.springboot.demo.dao.TestMapper;
 import com.richard.springboot.demo.service.TestService;
+import com.z.suite.exception.SystemException;
+import com.z.suite.util.http.HttpUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +25,10 @@ public class TestServiceImpl implements TestService {
     private TestMapper testMapper;
 
     @Override
-    public void testService() {
+    public void testService() throws SystemException {
         List<TestBean> testBeanList = testMapper.testSelect();
         logger.debug(testBeanList);
-        TestCommon.test();
+        String result = HttpUtil.httpGet("http://www.baidu.com", null, null);
+        logger.debug(result);
     }
 }

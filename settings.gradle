@@ -1,4 +1,4 @@
 rootProject.name = 'springboot-demo'
-include 'common'
 include 'demo'
+include 'suite'
 
